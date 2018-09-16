@@ -14,9 +14,13 @@
   <author href="https://build.phonegap.com">
       Alessandro Visigalli
   </author>
-    <!-- abilita links esterni -->
+  <!-- access origin to Internet -->
+  <access origin="*" />
+  <!-- cordova whitelist plugin -->
+   <plugin name="cordova-plugin-whitelist" source="npm" />
+    <!-- abilita links esterni 
   <allow-navigation href="*://*.canossamilano.org/*" />
-  <allow-navigation href="*://*.canossian.org/*" />
+  <allow-navigation href="*://*.canossian.org/*" /> -->
 
   <!-- piattaforma di riferimento ed icona della app -->
     <platform name="android">
