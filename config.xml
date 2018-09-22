@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
     versionCode = "22"
-    version     = "1.4.0" >
+    version     = "1.6.0" >
   <!-- nome della app -->
   <name>Canossian Calendar</name>
   <!-- descrizione -->
@@ -24,9 +24,9 @@
 
   <!-- piattaforma di riferimento ed icona della app -->
     <platform name="android">
-              <icon src="img/icongb.png" density="ldpi" />
-              <icon src="img/icongb.png" density="mdpi" />
-              <icon src="img/icongb.png" density="hdpi" />
-              <icon src="img/icongb.png" density="xhdpi" />
+              <icon src="img/icon.png" density="ldpi" />
+              <icon src="img/icon.png" density="mdpi" />
+              <icon src="img/icon.png" density="hdpi" />
+              <icon src="img/icon.png" density="xhdpi" />
      </platform>
 </widget>
